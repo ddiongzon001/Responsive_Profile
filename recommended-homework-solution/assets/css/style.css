@@ -215,3 +215,68 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/* Media Queries in order to resize the page */
+
+/* Media screen tag for when screen width is 980px or less*/
+@media screen and (max-width: 980px){
+  /* About me section */
+  .main-section {
+    float: left;
+    width: 75%;
+    height: 25%;
+  }
+  
+}
+
+
+/* Media screen tag for when screen width 768px or less*/
+@media screen and (max-width: 768px){
+  /* About me section */
+  .main-section{
+    float: left;
+    width: 100%;
+    height: 25%
+  }
+
+  .auth-image{
+    float: left;
+    width: 50%;
+    height: auto;
+  }
+
+}
+
+
+/* Media screen tag for when screen width 640px or less */
+@media screen and (max-width: 640px){
+  /* About me section */
+
+  .container{
+    position: static;
+  }
+
+  #logo{
+    width: 100%;
+  }
+
+  nav{
+    margin: 2% 0 2% 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .main-section{
+    margin: 5% 0 50% 3%;
+    width: 95%;
+    height: 25%
+  }
+
+  .auth-image{
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+}
